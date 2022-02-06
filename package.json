@@ -1,0 +1,14 @@
+{
+  "name": "week11_front_end_jquery_ajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "week10_Front_End_Jquery_AJAX_Video.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+   
+<head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+   
+   
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet"
+        type="text/css" href="style_tic.css">
+   
+  
+</head>
+   
+<body>
+    <div id="main">
+        <h1>This is the Game of TIC TAC TOE</h1>
+   
+        <!-- Instructions-->
+        
+        <p id ="ins1">To start the game
+            choose a box<br><br>First Player =
+            <b>Player X&nbsp;&nbsp;&nbsp</b>     
+               Second Player = <b>Player 0</b>
+        </p>
+   
+   
+        <br><br>
+        <!-- input is used to create interactive
+            controls, type creates single line
+            text fields, onclick executes a javascript -->
+        
+      <!-- the following code is series of buttons
+            in a 3x3 grid and are separtated by 
+            breaks -->
+
+        <input type="text" id="btn1" onclick=
+            "btnfunc_3(); btnfunc();" readonly>
+   
+        <input type="text" id="btn2" onclick=
+            "btnfunc_4(); btnfunc();" readonly>
+   
+        <input type="text" id="btn3" onclick=
+            "btnfunc_5(); btnfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="btn4" onclick=
+            "btnfunc_6(); btnfunc();" readonly>
+               
+        <input type="text" id="btn5" onclick=
+            "btnfunc_7(); btnfunc();" readonly>
+   
+        <input type="text" id="btn6" onclick=
+            "btnfunc_8(); btnfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="btn7" onclick=
+            "btnfunc_9(); btnfunc();" readonly>
+   
+        <input type="text" id="btn8" onclick=
+            "btnfunc_10();btnfunc();" readonly>
+   
+        <input type="text" id="btn9" onclick=
+            "btnfunc_11();btnfunc();" readonly>
+   
+        <br><br><br>
+
+ <!-- The button below executes a function that
+       initiates a new game. All input boxes are 
+       cleared -->
+  <div> 
+        <button id="but" onclick="btnfunc_2()">
+           <a>Start New Game</a>
+        </button>
+   
+        <br><br>
+       
+        <p id="print"></p>
+  
+    </div>
+   
+    </div>
+         
+        <script src="script_tic.js"></script>
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+      
+</body>
+   
+</html>
